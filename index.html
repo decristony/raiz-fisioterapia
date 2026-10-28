@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raiz — Fisioterapia & Pilates</title>
+<meta name="description" content="Raiz é um estúdio de fisioterapia ortopédica, esportiva e pilates clínico em Belo Horizonte. Avaliação completa e turmas de até 3 alunos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="progress" id="progress" aria-hidden="true"></div>
+<div class="gridlines" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
+<header class="top">
+  <a href="#" class="logo" aria-label="Raiz, início">RAIZ<sup>®</sup></a>
+  <span class="mono hide-sm">Fisioterapia &amp; Pilates — BH</span>
+  <nav aria-label="Principal">
+    <a href="#onde-doi">Onde dói?</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#metodo">Método</a>
+    <a href="#planos">Planos</a>
+  </nav>
+  <a href="#agenda" class="pill magnetic">Agendar <span aria-hidden="true">↗</span></a>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-stage" aria-hidden="true">
+      <img class="hero-bg" src="assets/hero-guerreiro-v2-2400.webp" srcset="assets/hero-guerreiro-v2-1440.webp 1440w, assets/hero-guerreiro-v2-2400.webp 2400w" sizes="(max-width:980px) 264vw, 120vw" width="2400" height="1334" alt="" fetchpriority="high">
+      <img class="hero-cut" src="assets/hero-guerreiro-v2-recorte-2400.webp" srcset="assets/hero-guerreiro-v2-recorte-1440.webp 1440w, assets/hero-guerreiro-v2-recorte-2400.webp 2400w" sizes="(max-width:980px) 264vw, 120vw" width="2400" height="1334" alt="" fetchpriority="high">
+    </div>
+    <p class="mono hero-idx">(01) — Estúdio clínico desde 2016</p>
+    <h1 class="split" aria-label="Mova-se sem dor.">
+      <span class="line">MOVA-<span class="front">SE</span></span>
+      <span class="line line-split"><span class="outline">SEM</span><span class="front">DOR.</span></span>
+    </h1>
+    <div class="hero-grid">
+      <p class="hero-lead">Fisioterapia ortopédica, esportiva e pilates clínico com avaliação biomecânica completa. Turmas de no máximo 3 alunos e um plano que cabe na sua rotina.</p>
+      <div class="hero-meta mono">
+        <span>Sessões de 50 min</span>
+        <span>Seg — Sáb · 6h às 21h</span>
+        <span>Savassi, Belo Horizonte</span>
+      </div>
+      <a href="#agenda" class="cta magnetic"><span>Avaliação inicial</span><b aria-hidden="true">→</b></a>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Coluna</span><b>✳</b><span>Joelho</span><b>✳</b><span>Ombro</span><b>✳</b><span>Pós-operatório</span><b>✳</b><span>Corrida</span><b>✳</b><span>Gestantes</span><b>✳</b><span>Postura</span><b>✳</b>
+      <span>Coluna</span><b>✳</b><span>Joelho</span><b>✳</b><span>Ombro</span><b>✳</b><span>Pós-operatório</span><b>✳</b><span>Corrida</span><b>✳</b><span>Gestantes</span><b>✳</b><span>Postura</span><b>✳</b>
+    </div>
+  </div>
+
+  <section class="band" aria-label="O estúdio">
+    <figure class="band-media"><img src="assets/estudio-fisioterapeuta-1600.webp" srcset="assets/estudio-fisioterapeuta-900.webp 900w, assets/estudio-fisioterapeuta-1600.webp 1600w" sizes="(max-width: 980px) 100vw, 58vw" width="1600" height="1067" alt="Fisioterapeuta orientando paciente em exercício com halteres" loading="lazy" decoding="async"></figure>
+    <div class="band-copy">
+      <p class="mono">Estúdio Savassi — 240 m²</p>
+      <p class="band-big">No máximo <span>3 alunos</span> por turma. Sempre com fisioterapeuta.</p>
+    </div>
+  </section>
+
+  <section class="onde" id="onde-doi">
+    <div class="onde-head">
+      <p class="mono">(02) — Mapa da dor</p>
+      <h2>Onde dói?</h2>
+      <p>Toque na região e veja como começamos o seu tratamento.</p>
+    </div>
+    <div class="body-map">
+      <svg viewBox="0 0 200 420" class="body" aria-hidden="true">
+        <circle cx="100" cy="42" r="26"/>
+        <path d="M72 78 Q100 70 128 78 L150 92 Q162 100 164 120 L176 214 Q178 226 168 228 L160 230 L146 140 L140 214 L146 400 Q146 412 134 412 L118 412 L104 262 L96 262 L82 412 L66 412 Q54 412 54 400 L60 214 L54 140 L40 230 L32 228 Q22 226 24 214 L36 120 Q38 100 50 92 Z"/>
+      </svg>
+      <button class="spot" data-area="pescoco" style="--x:50%;--y:18%" aria-label="Pescoço"></button>
+      <button class="spot" data-area="ombro" style="--x:30%;--y:23%" aria-label="Ombro"></button>
+      <button class="spot is-on" data-area="lombar" style="--x:50%;--y:47%" aria-label="Lombar"></button>
+      <button class="spot" data-area="joelho" style="--x:40%;--y:76%" aria-label="Joelho"></button>
+      <button class="spot" data-area="tornozelo" style="--x:62%;--y:94%" aria-label="Tornozelo"></button>
+    </div>
+    <article class="area-card" id="areaCard" aria-live="polite">
+      <figure class="area-media"><img id="areaImg" src="assets/pilates-instrutor.webp" width="740" height="493" alt="Fisioterapeuta corrigindo a postura de alunas no reformer" loading="lazy" decoding="async"></figure>
+      <p class="mono area-k">Região</p>
+      <h3 id="areaTitle">Lombar</h3>
+      <p id="areaText">A queixa número um do estúdio. Começamos com teste de mobilidade e controle motor do core, liberação miofascial e, a partir da 3ª sessão, pilates terapêutico no reformer.</p>
+      <dl class="area-stats">
+        <div><dt class="mono">Sessões médias</dt><dd id="areaSess">10–12</dd></div>
+        <div><dt class="mono">Foco</dt><dd id="areaFoco">Core &amp; quadril</dd></div>
+      </dl>
+    </article>
+  </section>
+
+  <section class="servicos" id="servicos">
+    <div class="sec-title"><p class="mono">(03) — Serviços</p><h2>O que fazemos</h2></div>
+    <ul class="rows" id="rows">
+      <li data-c="#E0482B" data-img="assets/terapia-joelho.webp"><img class="row-thumb" src="assets/terapia-joelho.webp" alt="Fisioterapeuta fazendo terapia manual no joelho de um paciente" loading="lazy" decoding="async" width="160" height="110"><span class="mono">01</span><h3>Fisioterapia ortopédica</h3><p>Dor crônica, hérnias, tendinites e lesões articulares.</p><b aria-hidden="true">↗</b></li>
+      <li data-c="#6B7A2A" data-img="assets/corrida.webp"><img class="row-thumb" src="assets/corrida.webp" alt="Pernas de corredor em pista de atletismo ao pôr do sol" loading="lazy" decoding="async" width="160" height="110"><span class="mono">02</span><h3>Fisioterapia esportiva</h3><p>Retorno ao esporte, corrida, crossfit e prevenção de lesões.</p><b aria-hidden="true">↗</b></li>
+      <li data-c="#1F3D5C" data-img="assets/pilates-reformer.webp"><img class="row-thumb" src="assets/pilates-reformer.webp" alt="Aluna no reformer durante aula de pilates clínico" loading="lazy" decoding="async" width="160" height="110"><span class="mono">03</span><h3>Pilates clínico</h3><p>Reformer, cadillac e chair com turmas de até 3 alunos.</p><b aria-hidden="true">↗</b></li>
+      <li data-c="#D9A21B" data-img="assets/reabilitacao-halter-1200.webp"><img class="row-thumb" src="assets/reabilitacao-halter-600.webp" alt="Fisioterapeuta ajudando paciente a erguer um halter na reabilitação" loading="lazy" decoding="async" width="160" height="110"><span class="mono">04</span><h3>Reabilitação pós-cirúrgica</h3><p>Protocolos alinhados com o seu ortopedista, semana a semana.</p><b aria-hidden="true">↗</b></li>
+      <li data-c="#141414" data-img="assets/gestante-bola.webp"><img class="row-thumb" src="assets/gestante-bola.webp" alt="Gestante sentada em bola de pilates fazendo exercício" loading="lazy" decoding="async" width="160" height="110"><span class="mono">05</span><h3>Pilates para gestantes</h3><p>Do 2º trimestre ao pós-parto, com fisioterapeuta pélvica.</p><b aria-hidden="true">↗</b></li>
+    </ul>
+    <div class="row-blob" id="blob" aria-hidden="true"><img alt="" id="blobImg" src="assets/terapia-joelho.webp"></div>
+  </section>
+
+  <section class="metodo" id="metodo">
+    <div class="sec-title"><p class="mono">(04) — Método Raiz</p><h2>Quatro etapas.<br>Nenhum atalho.</h2></div>
+    <div class="stack">
+      <article class="card c1"><figure class="card-bg"><img src="assets/fisioterapeuta.webp" alt="Fisioterapeuta da Raiz de braços cruzados, sorrindo" loading="lazy" decoding="async" width="1200" height="900"></figure><span class="num">01</span><div><h3>Avaliação</h3><p>Entrevista, testes funcionais, análise de marcha e postura em vídeo. Você sai com um laudo claro e objetivos medidos.</p></div></article>
+      <article class="card c2"><figure class="card-bg"><img src="assets/terapia-joelho.webp" alt="Mãos de fisioterapeuta em terapia manual no joelho" loading="lazy" decoding="async" width="1200" height="900"></figure><span class="num">02</span><div><h3>Alívio</h3><p>Terapia manual, recursos eletrotermofototerapêuticos e educação em dor para baixar a intensidade nas primeiras semanas.</p></div></article>
+      <article class="card c3"><figure class="card-bg"><img src="assets/pilates-instrutor.webp" alt="Instrutor ajustando o movimento de alunas no reformer" loading="lazy" decoding="async" width="1200" height="900"></figure><span class="num">03</span><div><h3>Força</h3><p>Exercício progressivo, com carga e pilates nos aparelhos. A dor diminui quando o corpo fica mais capaz.</p></div></article>
+      <article class="card c4"><figure class="card-bg"><img src="assets/corrida.webp" alt="Corredor de volta à pista após a reabilitação" loading="lazy" decoding="async" width="1200" height="900"></figure><span class="num">04</span><div><h3>Autonomia</h3><p>Alta com plano de manutenção — no estúdio, na academia ou em casa, com vídeos personalizados.</p></div></article>
+    </div>
+  </section>
+
+  <section class="planos" id="planos">
+    <div class="sec-title"><p class="mono">(05) — Planos de pilates</p><h2>Escolha seu ritmo</h2></div>
+    <div class="tabs" role="tablist" aria-label="Frequência">
+      <button role="tab" aria-selected="false" data-f="1">1x/semana</button>
+      <button role="tab" aria-selected="true" data-f="2">2x/semana</button>
+      <button role="tab" aria-selected="false" data-f="3">3x/semana</button>
+      <span class="tab-ind" aria-hidden="true"></span>
+    </div>
+    <div class="plans">
+      <article class="plan"><p class="mono">Mensal</p><p class="price"><small>R$</small><span data-p="mensal">390</span></p><p>Sem fidelidade. Ideal para conhecer o método.</p></article>
+      <article class="plan plan-hl"><p class="mono">Trimestral · mais escolhido</p><p class="price"><small>R$</small><span data-p="tri">350</span></p><p>Reavaliação inclusa no fim do ciclo.</p></article>
+      <article class="plan"><p class="mono">Semestral</p><p class="price"><small>R$</small><span data-p="sem">320</span></p><p>Duas reavaliações e uma sessão de fisio avulsa.</p></article>
+    </div>
+    <p class="mono note">Valores mensais fictícios, para fins de demonstração.</p>
+  </section>
+
+  <section class="agenda" id="agenda">
+    <h2>Bora<br>começar?</h2>
+    <form class="form" id="form" novalidate>
+      <label><span class="mono">Nome</span><input name="nome" autocomplete="name" required></label>
+      <label><span class="mono">WhatsApp</span><input name="tel" type="tel" autocomplete="tel" required></label>
+      <fieldset class="chips">
+        <legend class="mono">Interesse</legend>
+        <label><input type="radio" name="int" value="Fisioterapia" checked><span>Fisioterapia</span></label>
+        <label><input type="radio" name="int" value="Pilates"><span>Pilates</span></label>
+        <label><input type="radio" name="int" value="Os dois"><span>Os dois</span></label>
+      </fieldset>
+      <button type="submit" class="cta magnetic"><span>Quero minha avaliação</span><b aria-hidden="true">→</b></button>
+      <p class="form-msg mono" id="msg" role="status"></p>
+    </form>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot-grid">
+    <div><p class="mono">Endereço</p><p>Rua Fictícia dos Inconfidentes, 1090<br>Savassi — Belo Horizonte/MG</p></div>
+    <div><p class="mono">Contato</p><p>(31) 3000-0000<br>ola@raiz.exemplo</p></div>
+    <div><p class="mono">Responsável técnica</p><p>Dra. Júlia Prates<br>CREFITO-4 000000-F (fictício)</p></div>
+    <div><p class="mono">Crédito</p><p class="credit">Desenvolvido por <a href="https://orvionweb.com/" target="_blank" rel="noopener">OrvionWeb</a></p><p class="photo-credit">Fotos: <a href="https://www.magnific.com" target="_blank" rel="noopener">Designed by Magnific</a> e imagens geradas com IA</p></div>
+  </div>
+  <p class="wordmark" aria-hidden="true">RAIZ</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
