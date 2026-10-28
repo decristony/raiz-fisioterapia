@@ -1,0 +1,21 @@
+Créditos das imagens — Raiz Fisioterapia & Pilates
+
+Geradas com IA (Figma, gemini-3.1-flash-image), para este projeto:
+- hero-reformer.webp, terapia-joelho.webp, corrida.webp
+
+Fotos gratuitas — Designed by Magnific (https://www.magnific.com), licença Free (atribuição obrigatória, já incluída no rodapé):
+- pilates-reformer.webp      https://www.magnific.com/free-photo/people-taking-pilates-reformer-class_170853584.htm
+- pilates-instrutor.webp     https://www.magnific.com/free-photo/people-pilates-reformer-class-exercising-their-bodies_75523682.htm
+- reabilitacao-elastico.webp https://www.magnific.com/free-photo/medical-assistant-helping-patient-with-physiotherapy-exercises_17613536.htm
+- gestante-bola.webp         https://www.magnific.com/free-photo/pregnant-woman-exercising-with-fit-ball-class-pilates_21795161.htm
+- fisioterapeuta.webp        https://www.magnific.com/free-photo/confident-woman-with-crossed-arms-gesture_16261242.htm
+
+Obs.: versões de pré-visualização (740 px). Para uso real em produção, baixe os arquivos originais pela sua conta Magnific (gratuita) nas páginas acima.
+
+Originais em alta baixados pela conta Magnific do cliente (F:\WebsitesGenerator\imagens\fisioterapia), cortados e otimizados em WebP:
+- hero-guerreiro-2000/1200.webp e hero-guerreiro-recorte-*.webp (recorte da pessoa feito para o efeito do título) — "mulher pose guerreiro.jpg"
+- estudio-fisioterapeuta-1600/900.webp — "fisioterap2.jpg"
+- reabilitacao-halter-1200/600.webp — "fisioterapy3.jpg"
+Crédito "Designed by Magnific" mantido no rodapé.
+
+hero-guerreiro-v2-*.webp e hero-guerreiro-v2-recorte-*.webp — a partir de imagens\fisioterapia\mulher pose guerreiro.jpg (Magnific, licença gratuita): recorte refeito com fundo limpo (placa sem a pessoa) e canvas estendido à direita.
