@@ -372,3 +372,32 @@ section{padding:120px var(--gut)}
 @media (max-width:980px){ .hero h1 .line-split .front{z-index:auto;position:static} }
 /* desktop: o título cresce junto com a foto em telas largas, mantendo a mesma composição de 1440px */
 @media (min-width:981px){ .hero h1{font-size:15.4vw} }
+
+/* ===== TRANSIÇÕES v2 · Raiz Fisioterapia · tudo cresce a partir da base ===== */
+html.fx{--t-y:22px;--t-c0:inset(100% 0 0 0);--t-c1:inset(-30% -6% -30% -6%);--t-d:1s;--t-e:cubic-bezier(.2,.8,.2,1);--i-c0:inset(100% 0 0 0);--i-c1:inset(0);--i-s:1.1;--i-o:50% 100%;--i-d:1.3s;--i-e:cubic-bezier(.7,0,.2,1);--c-y:60px;--c-d:1.1s;--c-e:cubic-bezier(.3,1.35,.5,1);--dv-c:#E0482B;--dv-d:1.4s}
+.fx .fx-t:not(.fx-on){opacity:0;translate:var(--t-x,0) var(--t-y,20px);scale:var(--t-s,1);filter:var(--t-f,none);clip-path:var(--t-c0,none)}
+.fx .fx-t.fx-on:not(.fx-done){clip-path:var(--t-c1,none)}
+.fx .fx-t:not(.fx-done){transition:opacity var(--t-d) var(--t-e),translate var(--t-d) var(--t-e),scale var(--t-d) var(--t-e),filter var(--t-d) var(--t-e),clip-path var(--t-d) var(--t-e)}
+.fx .fx-i:not(.fx-noclip):not(.fx-on){clip-path:var(--i-c0)}
+.fx .fx-i:not(.fx-noclip).fx-on:not(.fx-done){clip-path:var(--i-c1)}
+.fx .fx-i:not(.fx-done){transition:clip-path var(--i-d) var(--i-e),opacity var(--i-d) var(--i-e)}
+.fx .fx-i.fx-noclip:not(.fx-on){opacity:0}
+.fx .fx-i:not(.fx-self):not(.fx-on) img{scale:var(--i-s,1.08);transform-origin:var(--i-o,50% 50%)}
+.fx .fx-i:not(.fx-self):not(.fx-done) img{transition:scale calc(var(--i-d) + .5s) var(--i-e),filter calc(var(--i-d) + .4s) ease;transition-delay:var(--dl,0s)}
+
+.fx .fx-c:nth-child(even){--sg:-1}
+.fx .fx-c:not(.fx-on){opacity:0;translate:var(--c-x,0) var(--c-y,36px);scale:var(--c-s,1);rotate:calc(var(--c-r,0deg) * var(--sg,1));filter:var(--c-f,none)}
+.fx .fx-c:not(.fx-done){transition:opacity var(--c-d) var(--c-e),translate var(--c-d) var(--c-e),scale var(--c-d) var(--c-e),rotate var(--c-d) var(--c-e),filter var(--c-d) var(--c-e)}
+.fx .fx-c:not(.fx-on) img{scale:var(--ci-s,1.1)}
+.fx .fx-c:not(.fx-done) img{transition:scale calc(var(--c-d) + .5s) var(--c-e),filter calc(var(--c-d) + .4s) ease;transition-delay:var(--dl,0s)}
+.fx .fx-ws .fx-w{display:inline-block}
+.fx .fx-ws:not(.fx-on) .fx-w{opacity:0;translate:0 var(--w-y,.4em);scale:var(--w-s,1);filter:var(--w-f,none);color:var(--w-c,inherit)}
+.fx .fx-ws:not(.fx-done) .fx-w{transition:opacity var(--w-d) var(--w-e),translate var(--w-d) var(--w-e),scale var(--w-d) var(--w-e),filter var(--w-d) var(--w-e),color calc(var(--w-d) * 1.8) ease;transition-delay:calc(var(--dl,0s) + var(--wd,0s))}
+.fx-div{position:absolute;left:50%;top:var(--dv-top,clamp(12px,2.6vw,30px));translate:-50% 0;width:min(1180px,calc(100% - 40px));pointer-events:none;z-index:3;color:var(--dv-c);opacity:var(--dv-o,.75)}
+.fx-div svg{display:block;width:100%;height:auto;overflow:visible}
+.fx-div .ln{fill:none;stroke:currentColor;stroke-width:var(--dv-w,1.6);stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset var(--dv-d,1.6s) var(--dv-e,cubic-bezier(.65,0,.35,1));transition-delay:calc(var(--dl,0s) + var(--ld,0s))}
+.fx-div.fx-on .ln{stroke-dashoffset:0}
+.fx-div .dot{fill:currentColor;opacity:0;scale:.2;transform-box:fill-box;transform-origin:center;transition:opacity .5s ease,scale .7s cubic-bezier(.34,1.56,.64,1);transition-delay:calc(var(--dl,0s) + var(--ld,0s))}
+.fx-div.fx-on .dot{opacity:1;scale:1}
+
+@media (max-width:760px){html.fx{--t-y:14px;--c-y:34px}.fx-div{--dv-w:3.6}}
